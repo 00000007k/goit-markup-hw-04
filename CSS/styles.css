@@ -193,6 +193,20 @@ ul {
 #FFFFFF
 #4D5AE5*/
 .hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  height: 603px;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: var(--third-text-color);
   text-align: center;
   padding-top: 192px;
@@ -227,6 +241,33 @@ ul {
 }
 /* info
 #2E2F42 */
+.rad {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.item-antenna {
+  width: 59.72px;
+  height: 64px;
+}
+.item-clock {
+  width: 61.22px;
+  height: 64px;
+}
+.item-diagram {
+  width: 64px;
+  height: 49.09px;
+}
+.item-astronaut {
+  width: 50.13px;
+  height: 55.46px;
+}
+
 .info {
   padding-top: 120px;
 }
@@ -319,7 +360,7 @@ img {
 
 .card-content {
   text-align: center;
-  padding: 32px;
+  padding: 32px 16px;
   background-color: #ffffff;
 }
 .card-text {
@@ -328,7 +369,90 @@ img {
   line-height: 1.5;
   font-family: inherit;
 }
+.modern-iconss {
+  display: flex;
+  margin-top: 12px;
+}
+.media-correct:not(:last-child) {
+  margin-right: 24px;
+}
+.media-correct {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--second-text-color);
+  background-position: center;
+}
 
+.media {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: var(--second-text-color);
+  margin-top: 12px;
+}
+
+/*customer*/
+.section-customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customer-list {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 0;
+}
+.customer-items {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 168px;
+  height: 88px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.customer-items:not(:last-child) {
+  margin-right: 24px;
+}
+.customer-title {
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+  margin-bottom: 72px;
+}
+
+/*items in custom */
+.item-group {
+  width: 41px;
+  height: 46.97px;
+}
+.item-groupa {
+  width: 40px;
+  height: 52px;
+}
+.item-objecf {
+  width: 44px;
+  height: 41px;
+}
+.item-groupb {
+  width: 84px;
+  height: 41px;
+}
+.item-groupc {
+  width: 63px;
+  height: 45px;
+}
+.item-objectd {
+  width: 94px;
+  height: 44px;
+}
 /* foooter сайта
 #2E2F42
 #F4F4FD
