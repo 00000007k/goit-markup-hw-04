@@ -482,10 +482,7 @@ img {
   fill: #4d5ae5;
 }
 
-/* foooter сайта
-#2E2F42
-#F4F4FD
-#E7E9FC*/
+/* foooter сайта*/
 .down {
   background-color: var(--third-text-color);
   padding-top: 100px;
@@ -551,11 +548,7 @@ img {
 }
 /* portfolio*/
 
-/* portfolio- button
-#FFFFFF
-#4D5AE5
-#E7E9FC
-*/
+/* portfolio- button*/
 .art {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -596,8 +589,7 @@ img {
   border-bottom: 1px solid;
   border-color: rgba(46, 47, 66, 0.16);
 }
-/* portfolio photo 
-#2E2F42*/
+/* portfolio photo */
 
 .example {
   display: flex;
