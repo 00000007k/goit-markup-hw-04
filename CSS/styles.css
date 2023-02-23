@@ -362,7 +362,11 @@ img {
   text-align: center;
   padding: 32px 16px;
   background-color: #ffffff;
+  filter: drop-shadow(1px 1px 6px rgba(46, 47, 66, 0.16));
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
+
 .card-text {
   margin-top: 10px;
   font-size: 16px;
@@ -411,12 +415,12 @@ img {
   height: 88px;
   justify-content: center;
   align-items: center;
-  text-align: center;
   display: flex;
 }
 .customer-items:not(:last-child) {
   margin-right: 24px;
 }
+
 .customer-title {
   text-align: center;
   font-family: inherit;
@@ -430,29 +434,44 @@ img {
 
 /*items in custom */
 .item-group {
+  fill: #8e8f99;
   width: 41px;
   height: 46.97px;
 }
 .item-groupa {
+  fill: #8e8f99;
   width: 40px;
   height: 52px;
 }
 .item-objecf {
+  fill: #8e8f99;
   width: 44px;
   height: 41px;
 }
 .item-groupb {
+  fill: #8e8f99;
   width: 84px;
   height: 41px;
 }
 .item-groupc {
+  fill: #8e8f99;
   width: 63px;
   height: 45px;
 }
 .item-objectd {
+  fill: #8e8f99;
   width: 94px;
   height: 44px;
+  color: #2e2f42;
 }
+
+.customer-items:hover {
+  border-color: #4d5ae5;
+}
+.customer-items:hover svg {
+  fill: #4d5ae5;
+}
+
 /* foooter сайта
 #2E2F42
 #F4F4FD
@@ -480,7 +499,46 @@ img {
   width: 264px;
   font-family: inherit;
 }
+/* Media footer*/
+.social-text {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.modem {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+.social-block {
+  margin-left: 120px;
+}
 
+.social {
+  width: 24px;
+  height: 24px;
+  margin-top: 7px;
+}
+
+.social-items {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.social-items:not(:last-child) {
+  margin-right: 24px;
+}
+.social-items:hover,
+.social-items:focus {
+  background-color: #31d0aa;
+}
 /* portfolio*/
 
 /* portfolio- button
@@ -520,6 +578,8 @@ img {
 .gallery-link:focus {
   color: #ffffff;
   background-color: var(--second-text-color);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 .midd {
   border-bottom: 1px solid;
@@ -572,7 +632,8 @@ img {
 .example-card:not(:nth-last-child(-n + 3)) {
   margin-bottom: 48px;
 }
-/*
-.example-card:nth-last-child(-n + 3) {
-  padding-bottom: 120px;
-}*/
+
+.example-card:hover {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
